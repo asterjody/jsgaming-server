@@ -1,6 +1,15 @@
 {
     "version": 2,
-    "name": "jsgaming-server",
-    "builds": [{"src":"index.js", "use":"@vercel/node"}],
-    "routes": [{"src":"/(.*)", "dest":"/indes.js"}]
+    "builds": [
+        {
+            "src":"./bin/www", 
+            "use":"@vercel/node"
+            }
+        ],
+    "routes": [
+        {
+            "src":"/(.*)",
+            "dest":"/"
+        }
+    ]
 }
