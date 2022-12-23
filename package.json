@@ -2,7 +2,7 @@
   "name": "bwa-jsgaming-server",
   "version": "0.0.0",
   "private": true,
-  "main": "app.js"
+  "main": "app.js",
   "engines": {
     "node": "14.x"
   },
